@@ -1,0 +1,205 @@
+/* ================ медиа для правого и левого блоков отображения ================ */
+
+@media (max-width: 1200px) {
+    .contentcontainer {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+        
+      }
+    
+      .timeline {
+        right: 75%;
+        
+      }
+    
+      .righttext {
+        left: 40%;
+        height: 89%;
+        
+      }
+    
+      .lefttext {
+        right: 60%;
+      }
+}
+
+@media (max-width: 992px) {
+  .contentcontainer {
+    width: 100%;
+    display: flex;
+  }
+
+  .timeline {
+    right: 270px;
+  }
+
+  .direction-r {
+    text-align: left;
+  }
+
+  .righttext {
+    width: 67%;
+    height: 117%;
+    display: table-cell;
+  }
+
+  .lefttext {
+    width: 25%;
+    height: 90%;
+    display: grid;
+    justify-content: end;
+  }
+}
+
+@media (max-width: 767px) {
+  .contentcontainer {
+    width: 100%;
+    display: flex;
+  }
+
+  .timeline {
+    right: 270px;
+  }
+
+  .direction-r {
+    text-align: left;
+  }
+
+  .righttext {
+    width: 66%;
+    height: 117%;
+    display: table-cell;
+  }
+
+  .lefttext {
+    width: 25%;
+    height: 90%;
+    display: grid;
+    justify-content: end;
+  }
+}
+
+@media (max-width: 620px) {
+  .contentcontainer {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  .timeline {
+    left: 0%;
+  }
+
+
+  .righttext {
+    width: 100%;
+    height: 180%;
+    margin-top: 360px;
+    text-align: center;
+   
+  }
+
+  .lefttext {
+    width: 95%;
+    padding: 0%;
+    height: 50%;
+    display: grid;
+    justify-content: center;
+  }
+}
+
+/* ================ медиа для таймлайна ================ */
+
+@media screen and (max-width: 620px) {
+  .timeline {
+    width: 100%;
+    padding: 4em 0 1em 0;
+  }
+
+  .timeline li {
+    padding: 2em 0;
+  }
+
+  .direction-l,
+  .direction-r {
+    float: none;
+    width: 100%;
+
+    text-align: center;
+  }
+
+  .flag-wrapper {
+    text-align: center;
+  }
+
+  .flag {
+    background: rgb(255, 255, 255);
+    z-index: 15;
+  }
+
+  .direction-l .flag:before,
+  .direction-r .flag:before {
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    content: " ";
+    display: block;
+    width: 12px;
+    height: 12px;
+    margin-left: -9px;
+    background: #fff;
+    border-radius: 10px;
+    border: 4px solid rgb(255, 80, 80);
+    z-index: 10;
+  }
+
+  .direction-l .flag:after,
+  .direction-r .flag:after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: -8px;
+    height: 0;
+    width: 0;
+    margin-left: -8px;
+    border: solid transparent;
+    border-bottom-color: rgb(255, 255, 255);
+    border-width: 8px;
+    pointer-events: none;
+  }
+
+  .time-wrapper {
+    display: block;
+    position: relative;
+    margin: 4px 0 0 0;
+    z-index: 14;
+  }
+
+  .direction-l .time-wrapper {
+    float: none;
+  }
+
+  .direction-r .time-wrapper {
+    float: none;
+  }
+
+  .desc {
+    position: relative;
+    margin: 1em 0 0 0;
+    padding: 1em;
+    background: rgb(245, 245, 245);
+    -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 0 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.2);
+
+    z-index: 15;
+  }
+
+  .direction-l .desc,
+  .direction-r .desc {
+    position: relative;
+    margin: 1em 1em 0 1em;
+    padding: 1em;
+
+    z-index: 15;
+  }
+}
