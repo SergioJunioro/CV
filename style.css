@@ -3,7 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Caveat&family=Cormorant+Unicase:wght@300&family=Kalnia:wght@200&display=swap");
 
 body {
-  background-image: url(/img/desk-istockexperienceinteriors.jpg);
+  background-image: url(/desk-istockexperienceinteriors.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   color: rgb(0, 0, 0);
@@ -23,7 +23,7 @@ body {
 }
 
 .lefttext {
-  background-image: url(/img/my\ view.jpg);
+  background-image: url(/my/view.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50%;
