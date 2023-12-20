@@ -85,7 +85,7 @@
   }
 } */
 
-@media (max-width:800px) {
+@media (max-width:1078px) {
   .contentcontainer {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
@@ -115,7 +115,7 @@
 
 /* ================ медиа для таймлайна ================ */
 
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 1078px) {
   .timeline {
     width: 100%;
     padding: 4em 0 1em 0;
