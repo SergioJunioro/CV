@@ -23,7 +23,7 @@ body {
 }
 
 .lefttext {
-  background-image: url(https://github.com/SergioJunioro/CV/blob/main/my%20view.jpg);
+  background-image: url(myview.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50%;
