@@ -1,6 +1,6 @@
 /* ================ медиа для правого и левого блоков отображения ================ */
 
-@media (max-width: 1200px) {
+@media (max-width: 12400px) {
     .contentcontainer {
         display: flex;
         flex-direction: column;
@@ -29,7 +29,7 @@
       }
 }
 
-@media (max-width: 992px) {
+@media (max-width: 1992px) {
   .contentcontainer {
     width: 100%;
     display: flex;
