@@ -249,6 +249,15 @@
 
 
 @media (max-device-width: 768px) {
+
+  .slidemenu {
+    width : 150px; 
+    margin : 40px auto; 
+    display: inline;
+    position: relative;
+    bottom: 10%
+  } 
+
   body {
     background-image: none;
     background-color: rgb(127, 127, 127);
@@ -281,7 +290,7 @@
     left: 6%;
     width: 88%;
     padding: 0%;
-    height: 40%;
+    height: 330px;
     display: grid;
     justify-content: center;
   }
@@ -478,3 +487,4 @@
     z-index: 15;
   }
 }
+
