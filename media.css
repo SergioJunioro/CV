@@ -119,17 +119,17 @@
 
 @media screen and (orientation: portrait) {
 
-  .slidemenu {
-    width : 300px; 
+ .slidemenu {
+    width : 150px; 
     margin : 40px auto; 
     display: inline;
-    position: sticky;
-    
+    position: relative;
+    bottom: 10%
   } 
 
   body {
     background-image: none;
-    background-color: rgb(92, 92, 92);
+    background-color: rgb(127, 127, 127);
   }
 
   .contentcontainer {
@@ -146,10 +146,12 @@
   .righttext {
     box-sizing: border-box;
     width: 100%;
-    margin-top: 500px;
+    height: 180%;
+    margin-top: 100%;
     text-align: center;
     margin-right: 0%;
     position: static;
+    font-size: larger;
   }
 
   .lefttext {
@@ -157,7 +159,7 @@
     left: 6%;
     width: 88%;
     padding: 0%;
-    height: 50%;
+    height: 330px;
     display: grid;
     justify-content: center;
   }
