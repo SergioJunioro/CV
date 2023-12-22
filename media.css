@@ -1,6 +1,6 @@
 /* ================ медиа для правого и левого блоков отображения ================ */
 
-@media (max-width: 1700px) {
+@media (max-width: 1900px) {
 
   .slidemenu {
     width : 150px; 
@@ -128,8 +128,8 @@
   } 
 
   body {
-    background-image: none;
-    background-color: rgb(127, 127, 127);
+    background-image: url(/img/portr.jpg)
+    
   }
 
   .contentcontainer {
@@ -176,8 +176,8 @@
   } 
 
   body {
-    background-image: none;
-    background-color: rgb(92, 92, 92);
+    background-image: url(/img/portr.jpg)
+    
   }
 
   .contentcontainer {
@@ -261,8 +261,8 @@
   } 
 
   body {
-    background-image: none;
-    background-color: rgb(127, 127, 127);
+    background-image: url(/img/portr.jpg)
+    
   }
 
   .contentcontainer {
@@ -301,6 +301,11 @@
 /* ================ медиа для таймлайна ================ */
 
 @media screen and (orientation: portrait) {
+
+  .time{
+border-radius: 7px;
+
+  }
   .timeline {
     width: 100%;
     padding: 4em 0 1em 0;
@@ -489,4 +494,3 @@
     z-index: 15;
   }
 }
-
