@@ -1,5 +1,46 @@
 /* ================ медиа для правого и левого блоков отображения ================ */
+@media (min-width: 1900px) {
+  .slidemenu {
+    width: 150px;
+    margin: 40px auto;
+    display: inline;
+    position: relative;
+    bottom: 25%;
+  }
 
+  .contentcontainer {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+
+  .timeline {
+    right: 30%;
+  }
+  .righttext::-webkit-scrollbar {
+    display: none;
+  }
+  .righttext {
+    left: 40%;
+    width: 40%;
+    height: 90%;
+    overflow-y: scroll;
+  }
+
+  .lefttext {
+    padding-left: 0%;
+    padding-right: 0%;
+    padding-top: 10%;
+    width: 20%;
+    right: 60%;
+    height: 70%;
+    display: grid;
+  }
+  .infa {
+    margin: 0px;
+    padding: 0px;
+  }
+}
 @media (max-width: 1900px) {
 
   .slidemenu {
