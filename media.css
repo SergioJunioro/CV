@@ -212,15 +212,14 @@
   }
 }
 
-@media all and (max-device-height:800px), (max-device-width: 768px) {
-
+@media all and (max-device-height: 800px), (max-device-width: 768px) {
   .slidemenu {
-    width : 150px; 
-    margin : 40px auto; 
+    width: 150px;
+    margin: 40px auto;
     display: inline;
     position: relative;
     bottom: 30%;
-  } 
+  }
   .contentcontainer {
     display: flex;
     flex-direction: column;
@@ -228,7 +227,7 @@
   }
 
   .timeline {
-    right: 80%;
+    right: 60%;
     display: grid;
   }
   .righttext::-webkit-scrollbar {
@@ -236,7 +235,7 @@
   }
   .righttext {
     left: 40%;
-    width: 40%;
+    width: 50%;
     height: 90%;
     overflow-y: scroll;
   }
@@ -245,7 +244,6 @@
     right: 60%;
     height: 68%;
   }
-
 }
 
 
