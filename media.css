@@ -1,4 +1,5 @@
 /* ================ медиа для правого и левого блоков отображения ================ */
+
 @media (min-width: 1900px) {
   .slidemenu {
     width: 150px;
@@ -41,15 +42,15 @@
     padding: 0px;
   }
 }
-@media (max-width: 1900px) {
 
+@media (max-width: 1900px) {
   .slidemenu {
-    width : 150px; 
-    margin : 40px auto; 
+    width: 150px;
+    margin: 40px auto;
     display: inline;
     position: relative;
     bottom: 25%;
-  } 
+  }
 
   .contentcontainer {
     display: flex;
@@ -86,14 +87,13 @@
 }
 
 @media (max-width: 1200px) {
-
   .slidemenu {
-    width : 150px; 
-    margin : 40px auto; 
+    width: 150px;
+    margin: 40px auto;
     display: inline;
     position: relative;
     bottom: 20%;
-  } 
+  }
   .contentcontainer {
     display: flex;
     flex-direction: column;
@@ -121,15 +121,13 @@
 }
 
 @media (max-width: 1000px) {
-
   .slidemenu {
-    width : 300px; 
-    margin : 40px auto; 
+    width: 300px;
+    margin: 40px auto;
     display: inline;
     position: sticky;
-    
-  } 
-  
+  }
+
   .contentcontainer {
     width: 100%;
     display: flex;
@@ -157,20 +155,17 @@
   }
 }
 
-
 @media screen and (orientation: portrait) {
-
   .slidemenu {
-    width : 150px; 
-    margin : 40px auto; 
+    width: 150px;
+    margin: 40px auto;
     display: inline;
     position: relative;
-    bottom: 10%
-  } 
+    bottom: 10%;
+  }
 
   body {
-    background-image: url(portr.jpg)
-    
+    background-image: url(/img/portr.jpg);
   }
 
   .contentcontainer {
@@ -188,7 +183,7 @@
     box-sizing: border-box;
     width: 100%;
     height: 180%;
-    margin-top: 100%;
+    margin-top: 30vh;
     text-align: center;
     margin-right: 0%;
     position: static;
@@ -207,18 +202,15 @@
 }
 
 @media (max-width: 768px) {
-
   .slidemenu {
-    width : 300px; 
-    margin : 40px auto; 
+    width: 300px;
+    margin: 40px auto;
     display: inline;
     position: sticky;
-    
-  } 
+  }
 
   body {
-    background-image: url(portr.jpg)
-    
+    background-image: url(/img/portr.jpg);
   }
 
   .contentcontainer {
@@ -268,7 +260,7 @@
   }
 
   .timeline {
-    right: 60%;
+    right: 300px;
     display: grid;
   }
   .righttext::-webkit-scrollbar {
@@ -287,21 +279,17 @@
   }
 }
 
-
-
 @media (max-device-width: 768px) {
-
   .slidemenu {
-    width : 150px; 
-    margin : 40px auto; 
+    width: 150px;
+    margin: 40px auto;
     display: inline;
     position: relative;
-    bottom: 10%
-  } 
+    bottom: 10%;
+  }
 
   body {
-    background-image: url(portr.jpg)
-    
+    background-image: url(/img/portr.jpg);
   }
 
   .contentcontainer {
@@ -319,7 +307,6 @@
     box-sizing: border-box;
     width: 100%;
     height: 180%;
-    margin-top: 100%;
     text-align: center;
     margin-right: 0%;
     position: static;
@@ -331,7 +318,7 @@
     left: 6%;
     width: 88%;
     padding: 0%;
-    height: 330px;
+    height: 340px;
     display: grid;
     justify-content: center;
   }
@@ -340,10 +327,8 @@
 /* ================ медиа для таймлайна ================ */
 
 @media screen and (orientation: portrait) {
-
-  .time{
-border-radius: 7px;
-
+  .time {
+    border-radius: 7px;
   }
   .timeline {
     width: 100%;
@@ -533,3 +518,4 @@ border-radius: 7px;
     z-index: 15;
   }
 }
+
